@@ -4,5 +4,6 @@ trace - A system call in Xv-6 which when enabled helps us to trace and print tot
 Input parameters : 0 and any non-zero element 
 functionality : Any non zero input wil enable the tracing and will keep printing the system calls which will be made, 0 will disble monitoring
 
-eg: trace(0) //disabled
-    trace(8) //enabled
+eg: trace(0) means disabled
+    trace(8) means enabled
+
