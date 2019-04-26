@@ -7,3 +7,11 @@ functionality : Any non zero input wil enable the tracing and will keep printing
 eg: trace(0) means disabled
     trace(8) means enabled
 
+ 
+You need to make a C file (test.c)
+add a system call 
+change proc structure in proc.h
+and enable monitoring from syscall.c
+
+
+all 9 related files are in the master branch
